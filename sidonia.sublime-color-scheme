@@ -1,0 +1,40 @@
+{
+  "name": "sidonia",
+  "globals": {
+    "background": "#333942",
+    "foreground": "#e4edfa",
+    "caret": "#e4edfa",
+    "line_highlight": "#2f343c",
+    "selection": "#a2afc1",
+    "selection_foreground": "#333942",
+    "highlight": "#26a6a6",
+    "find_highlight": "#26a6a6"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "#5c6573"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "#26a6a6"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric, keyword.control, storage.modifier, keyword.control.import",
+      "foreground": "#cc4339"
+    },
+    {
+      "name": "Variable",
+      "scope": "variable.parameter",
+      "foreground": "#e4edfa"
+    },
+    {
+      "name": "Keyword",
+      "scope": "support, keyword.operator, storage.type, entity.name, meta.function, constant.other, constant.language, keyword.control.conditional, variable.language, variable.other, constant.character",
+      "foreground": "#a2afc1"
+    }
+  ]
+}
